@@ -22,7 +22,7 @@ This repository contains **Dockerfile** of [MMS Automation Agent](http://mms.mon
 
   Start a container by mounting the mongo data directory and specifying the MMS group id and api key:
 
-    ```sh
+    ```
     docker run -d -v <data-dir>:/data -e GROUPID=<group-id> -e APIKEY=<api-key> ecardoso/mms-agent
     ```
 
