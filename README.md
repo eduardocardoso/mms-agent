@@ -22,6 +22,6 @@ This repository contains **Dockerfile** of [MMS Automation Agent](http://mms.mon
 
   Start a container by mounting the mongo data directory and specifying the MMS group id and api key:
 
-    `docker run -d -v <data-dir>:/data -e GROUPID=<group-id> -e APIKEY=<api-key> ecardoso/mms-agent`
+    docker run -d -v <data-dir>:/data -e GROUPID=<group-id> -e APIKEY=<api-key> ecardoso/mms-agent
 
 After few seconds the agent can be added on your mms dashboard. 
