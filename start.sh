@@ -1,3 +1,5 @@
+#! /bin/bash
+
 if [ -z $GROUPID ]; then
     echo "ERROR: GROUPID is not set."
     exit 1
